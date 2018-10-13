@@ -1,0 +1,15 @@
+{
+    "name": "nahidulhasan/laravel-macros",
+    "description": "For using Macros in laravel",
+    "require": {
+        "laravelcollective/html": "^5.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nahidul Hasan",
+            "email": "nahidul.cse@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
