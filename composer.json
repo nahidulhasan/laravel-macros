@@ -22,14 +22,14 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Collective\\Html\\HtmlServiceProvider::class",
+                "Collective\\Html\\HtmlServiceProvider",
                 "NahidulHasan\\LaravelMacros\\MacrosServiceProvider"
 
             ],
 
             "aliases": {
-                "Form" : "Collective\\Html\\FormFacade::class",
-                "Html" : " Collective\\Html\\HtmlFacade::class"
+                "Form" : "Collective\\Html\\FormFacade",
+                "Html" : "Collective\\Html\\HtmlFacade"
             }
         }
     }
