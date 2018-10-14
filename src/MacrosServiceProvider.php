@@ -17,7 +17,7 @@ class MacrosServiceProvider extends HtmlServiceProvider
     {
        
         $this->publishes([
-            __DIR__.'/Macros.php' => base_path('app/services'),
+            __DIR__.'/Macros.php' => base_path('app/Services/Macros.php'),
         ]);
 
     }
