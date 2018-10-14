@@ -11,5 +11,26 @@
             "email": "nahidul.cse@gmail.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+
+     "autoload": {
+        "psr-4": {
+            "NahidulHasan\\LaravelMacros\\": "src/"
+        }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Collective\\Html\\HtmlServiceProvider",
+                "NahidulHasan\\LaravelMacros\\MacrosServiceProvider"
+
+            ],
+
+            "aliases": {
+                "Form" : "Collective\\Html\\FormFacade",
+                "Html" : "Collective\\Html\\HtmlFacade"
+            }
+        }
+    }
 }
