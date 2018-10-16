@@ -5,6 +5,12 @@
 
 ## Installation
 
+
+### Requirement
+   -  PHP >= 5.6.4
+   - Laravel >= 5.4
+   
+### Installing    
 Run the following commands
 ```sh
 composer require nahidulhasan/laravel-macros
@@ -15,12 +21,11 @@ php artisan vendor:publish
 
 ## Basic Usage
 
-A new class is created in App/Services folder named Macros.php. Here you have to add your code. For exanple I have added bank list.
-
+A new class is created in App/Services folder named Macros.php. Here you have to add your code. 
+For example, I have added bank list.
 Now you can call Form::selectBank() in any view, and have it display a nice list of Bank list to select from. You can specify the parameters as the input name, default selected value, and array of options.
 
 Here is the example :
-
 ```
 <div class="form-group">
 
@@ -30,7 +35,7 @@ Here is the example :
 
 </div>
 ```
+If you want to learn more about macros and want to configure without using package, please read this [blog](https://medium.com/@NahidulHasan/how-to-use-macros-in-laravel-a9078a0610f9)
 
-
-## License
+###  License
 Laravel-Macros for Laravel is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
