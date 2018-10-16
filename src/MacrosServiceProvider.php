@@ -6,11 +6,22 @@ namespace NahidulHasan\LaravelMacros;
 use Collective\Html\HtmlServiceProvider;
 
 /**
- * Class MacroServiceProvider
+ * Class MacrosServiceProvider
  * @package NahidulHasan\Macros
  */
 class MacrosServiceProvider extends HtmlServiceProvider
 {
+
+
+    public function boot()
+    {
+       
+        $this->publishes([
+            __DIR__.'/Macros.php' => base_path('app/Services/Macros.php'),
+        ]);
+
+    }
+
 
     public function register()
     {
