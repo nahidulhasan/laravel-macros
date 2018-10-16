@@ -12,17 +12,24 @@ use Collective\Html\HtmlServiceProvider;
 class MacrosServiceProvider extends HtmlServiceProvider
 {
 
-
+     /**
+     * Bootstrap any application services.
+     *
+     * @return void
+     */
     public function boot()
-    {
-       
+    {      
         $this->publishes([
             __DIR__.'/Macros.php' => base_path('app/Services/Macros.php'),
         ]);
-
     }
 
 
+     /**
+     * Register any application services.
+     *
+     * @return void
+     */
     public function register()
     {
         parent::register();
