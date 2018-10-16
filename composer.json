@@ -1,6 +1,6 @@
 {
     "name": "nahidulhasan/laravel-macros",
-    "description": "For using Macros in laravel",
+    "description": "A Simple package for using Macros in Laravel",
     "require": {
         "laravelcollective/html": "^5.4"
     },
