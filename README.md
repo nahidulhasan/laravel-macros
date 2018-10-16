@@ -1,6 +1,6 @@
 # Laravel-Macros
 
-> A Simple package for using Macros in laravel
+> A Simple package for using Macros in Laravel
 
 
 ## Installation
@@ -8,7 +8,9 @@
 Run the following commands
 ```sh
 composer require nahidulhasan/laravel-macros
+
 php artisan vendor:publish
+
 ```
 
 ## Basic Usage
@@ -30,5 +32,5 @@ Here is the example :
 ```
 
 
-##License
+## License
 Laravel-Macros for Laravel is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
