@@ -1,12 +1,18 @@
 # Laravel-Macros
 
+[![Latest Stable Version](https://poser.pugx.org/nahidulhasan/laravel-macros/v/stable)](https://packagist.org/packages/nahidulhasan/laravel-macros)
+[![Total Downloads](https://poser.pugx.org/nahidulhasan/laravel-macros/downloads)](https://packagist.org/packages/nahidulhasan/laravel-macros)
+[![Latest Unstable Version](https://poser.pugx.org/nahidulhasan/laravel-macros/v/unstable)](https://packagist.org/packages/nahidulhasan/laravel-macros)
+[![License](https://poser.pugx.org/nahidulhasan/laravel-macros/license)](https://packagist.org/packages/nahidulhasan/laravel-macros)
+
+
 > A Simple package for using Macros in Laravel
 
 
 ## Installation
 
 
-### Requirement
+### Requirements
    -  PHP >= 5.6.4
    - Laravel >= 5.4
    
