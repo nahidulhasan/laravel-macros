@@ -14,7 +14,7 @@
 
 ### Requirements
    -  PHP >= 5.6.4
-   - Laravel >= 5.4
+   - Laravel >= 5.5
    
 ### Installing    
 Run the following commands
@@ -27,9 +27,14 @@ php artisan vendor:publish
 
 ## Basic Usage
 
-A new class is created in App/Services folder named Macros.php. Here you have to add your code. 
+A new class is created in **App/Services** folder named **Macros.php**. Here you have to add your code. 
+
 For example, I have added bank list.
-Now you can call Form::selectBank() in any view, and have it display a nice list of Bank list to select from. You can specify the parameters as the input name, default selected value, and array of options.
+
+Now you can call **Form::selectBank()** in any view, and have it display a nice list of Bank list to select from. 
+
+You can specify the parameters as the **input name**, **default selected value**, and **array of options**.
+
 
 Here is the example :
 ```
